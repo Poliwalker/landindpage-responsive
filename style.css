@@ -17,6 +17,7 @@
 
 body{
     font-family: 'fira sans';
+    background-color: rgb(2, 22, 202);
 }
 
 .container {
@@ -35,7 +36,8 @@ body{
 
 h1 {
     font-size: 100px;
-    margin: 30px;
+    margin: 100px 0 200px 0;
+
 }
 .container__main{
     display: flex;
@@ -107,3 +109,51 @@ input:focus{
     width: 400px;
     height: 200px;
 }
+
+@media screen and (min-width:1000px) {
+    .container{
+        background-image: url(./Assets/92-923681_yamaha-motorcycle-2015.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    h1{
+        color: #a50303;
+    }
+        
+    .container__form{
+        max-width: 700px;
+        width: 100%;
+        border-radius: 20px;
+        min-height: 200px;
+        max-height: 300px;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    
+    input{
+        width: 400px;
+        height: 30px;
+        padding: 20px 0 20px 0; 
+        margin-left: 20px;
+        
+    }
+
+    .container__form a{
+        color: #fff;    
+    }
+
+    .container__form a:hover{
+        color: #d10000;
+    }
+    
+}
+
+
+    
+
+
