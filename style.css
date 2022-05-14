@@ -79,12 +79,15 @@ input {
     color: #fff;
     font-size: 20px;
     border: none;
+    text-align: center;
 }
 
 .btn{
     background: red;
     cursor: pointer;
 }
+
+
 
 .btn:hover{
     background-color: #fff;
@@ -144,7 +147,7 @@ input:focus{
     }
 
     .container__form a{
-        color: #fff;    
+        color: #fff;
     }
 
     .container__form a:hover{
